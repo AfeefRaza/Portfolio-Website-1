@@ -135,19 +135,19 @@ margin-right: 12vw;
 }
 
 @media (max-width: 940px) {
-    nav .middle {
+   nav .middle {
         position: fixed;
         display: block;
         width: 100%;
         height: 100vh;
-        top: 5vh;
+        top: 13vh;
         left: -100%;
         text-align: center;
         padding-left: 0;
         transition: all .5s;
       }
        
-      #check:checked ~ ul {
+      #check:checked ~ .middle {
         
         left: 0%;
       }
